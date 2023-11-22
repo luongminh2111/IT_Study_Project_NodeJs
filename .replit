@@ -1,0 +1,9 @@
+run = ["node", "app.js"]
+
+entrypoint = "app.js"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["bash", "app.js"]
